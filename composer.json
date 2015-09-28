@@ -1,0 +1,41 @@
+{
+  "name": "misfist/wpea-porfolio-projects",
+  "description": "Adds project content type and fields to be used in a portfolio.",
+  "keywords": ["wordpress", "plugin", "cpt", "custom post type"],
+  "homepage": "https://github.com/misfist/wpea-porfolio-projects",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Pea",
+      "homepage": "http://misfist.com"
+    }
+  ],
+  "dist": {
+    "type": "git",
+    "url": "https://github.com/misfist/wpea-porfolio-projects.git"
+  },
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "v1.0.21",
+    "elliotcondon/acf" : "*"
+  },
+  "repositories" : [
+    {
+        "type": "package",
+        "package": {
+            "name": "elliotcondon/acf",
+            "version": "4.4.2",
+            "source": {
+                "type" : "git",
+                "url" : "https://github.com/elliotcondon/acf.git",
+                "reference" : "4.4.2"
+            },
+            "dist": {
+                "url": "https://github.com/elliotcondon/acf/archive/4.4.2.zip",
+                "type": "zip"
+            }
+        }
+    }
+  ]
+
+}

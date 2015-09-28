@@ -1,24 +1,23 @@
 <?php
+
 /**
- * Portfolio Post Type
+ * WP Portfolio Projects
  *
- * @package   Portfolio_Post_Type
- * @author    Devin Price
- * @license   GPL-2.0+
- * @link      http://wptheming.com/portfolio-post-type/
- * @copyright 2011 Devin Price, Gary Jones
+ * @link              http://misfist.com
+ * @since             1.0.0
+ * @package           Wpea_Porfolio_Projects
  *
  * @wordpress-plugin
- * Plugin Name: Portfolio Post Type
- * Plugin URI:  http://wptheming.com/portfolio-post-type/
- * Description: Enables a portfolio post type and taxonomies.
- * Version:     0.9.1
- * Author:      Devin Price
- * Author URI:  http://www.wptheming.com/
- * Text Domain: portfolioposttype
- * License:     GPL-2.0+
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Domain Path: /languages
+ * Plugin Name:       WP Portfolio Projects
+ * Plugin URI:        https://github.com/misfist/wpea-porfolio-projects
+ * Description:       Adds project content type and fields to be used in a portfolio.
+ * Version:           1.0.0
+ * Author:            Pea
+ * Author URI:        http://misfist.com
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       wpea-porfolio-projects
+ * Domain Path:       /languages
  */
 
 // If this file is called directly, abort.
